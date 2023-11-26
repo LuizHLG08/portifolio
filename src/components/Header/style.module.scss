@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(var(--color-black), var(--color-brand-1) );
+    color: white;
+
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 90%;
+        max-width: 80rem;
+        margin: 1rem 0;
+
+        .contactContainer {
+            display: flex;
+            justify-content: space-between;
+    
+    
+            nav {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+    
+                a {
+                    width: 1.5rem;
+                    height: 1.5rem;
+    
+                }
+            }
+            
+            .whatsappContainer {
+
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+    
+                    a {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                    }
+                }
+                h2 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .homeContainer {
+            display: flex;
+            justify-content: space-between;
+    
+    
+            nav {
+                display: flex;
+                gap: 3rem;
+            }
+        }
+    }
+    
+    &::after{
+        background: transparent;
+        content: '';
+        border-left: 50vw solid black;
+        border-right: 50vw solid black;
+        border-top: 150px solid transparent;
+    }
+}
+
+
+
+
+.contactIcon {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
