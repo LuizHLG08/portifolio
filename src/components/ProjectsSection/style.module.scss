@@ -1,0 +1,19 @@
+.section {
+    background-color: var(--fixed-white);
+    color: var(--color-black);
+    display: flex;
+    height: 30rem;
+
+    .sectionHeader {
+        background-color: var(--color-brand-2);
+        color: var(--fixed-white);
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+    .projectList {
+        display: flex;
+        align-items: center;
+    }
+}

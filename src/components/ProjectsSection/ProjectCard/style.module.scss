@@ -1,0 +1,41 @@
+.card {
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: .2s;
+
+    .img {
+        height: 100%;
+    }
+    .text {
+        position: absolute;
+        bottom: -1.5rem;
+        color: var(--fixed-white);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        transition: .3s;
+        z-index: 10;
+    }
+
+    .shadow {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.363);
+        top: 0;
+        display: none;
+
+    }
+    
+    &:hover .text {
+        bottom: 1.5rem;
+    }
+    &:hover .shadow {
+        display: block;
+    }
+    &:hover{
+        height: 102%;    
+    }
+}
