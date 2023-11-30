@@ -2,7 +2,7 @@ import styles from "./style.module.scss"
 import macbook from "../../assets/macbook.svg"
 import iphone from "../../assets/iphone.svg"
 
-export const ProjectsModal = ({ project }) => {
+export const ProjectsModal = ({ project, setSelectedProject }) => {
     return (
         <div className={styles.modalOverlay}>
             <div className={styles.modalContainer}>
@@ -23,6 +23,7 @@ export const ProjectsModal = ({ project }) => {
                 <div className={styles.descriptionContainer}>
                     <p>{project.longDescription}</p>
                 </div>
+                <button onClick={() => setSelectedProject(null)}>Continuar</button>
             </div>
         </div>
     )

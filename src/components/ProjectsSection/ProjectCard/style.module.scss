@@ -3,10 +3,12 @@
     height: 100%;
     position: relative;
     overflow: hidden;
-    transition: .2s;
-
+    min-width: 226px;
+    
     .img {
+        transition: .2s;
         height: 100%;
+        width: 100%;
     }
     .text {
         position: absolute;
@@ -35,7 +37,7 @@
     &:hover .shadow {
         display: block;
     }
-    &:hover{
+    &:hover .img{
         height: 102%;    
     }
 }

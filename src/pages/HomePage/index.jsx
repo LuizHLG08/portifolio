@@ -17,7 +17,7 @@ export const HomePage = () => {
             <SkillsSection />
             <DifferentialSection />
             <ProjectsSection setSelectedProject={setSelectedProject} />
-            {selectedProject ? <ProjectsModal project={selectedProject} /> : null}
+            {selectedProject ? <ProjectsModal project={selectedProject} setSelectedProject={setSelectedProject} /> : null}
         </>
     )
 }

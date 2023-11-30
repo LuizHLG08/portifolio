@@ -2,11 +2,18 @@
     background-color: var(--fixed-white);
     color: var(--color-black);
     display: flex;
-    height: 30rem;
+    height: 25rem;
 
     .sectionHeader {
-        background-color: var(--color-brand-2);
+        background-color: var(--color-black);
         color: var(--fixed-white);
+        min-width: 25rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
 
         h2 {
             font-size: 3rem;
@@ -15,5 +22,7 @@
     .projectList {
         display: flex;
         align-items: center;
+        display: flex;
+        overflow-x: auto;
     }
 }
