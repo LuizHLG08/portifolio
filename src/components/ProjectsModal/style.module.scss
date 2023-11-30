@@ -1,0 +1,85 @@
+.modalOverlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0, 0.3);
+    inset: 0;
+    z-index: 100;
+
+    .modalContainer{
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        gap: 1rem;
+        
+        .modalHeader {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            
+            h2 {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+        
+        .previewContainer {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            gap: 1rem;
+
+            .desktopContainer {
+                min-height: 18rem;
+                min-width: 25rem;
+                position: relative;
+                
+                .desktop {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    z-index: 1;
+                }
+                .desktopImage {
+                    position: absolute;
+                    height: 11.5rem;
+                    width: 19.8rem;
+                    top: 0.9rem;
+                    left: 2.7rem;
+                }
+            }
+            .mobileContainer {
+                height: 16rem;
+                min-height: 16rem;
+                width: 11rem;
+                min-width: 11rem;
+                position: relative;
+
+                .mobile {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    z-index: 1;
+                }
+                .mobileImage {
+                    height: 13.5rem;
+                    width: 6.5rem;
+                    position: absolute;
+                    right: 2.2rem;
+                    top: 1rem;
+                }
+            }
+        }
+    }
+}

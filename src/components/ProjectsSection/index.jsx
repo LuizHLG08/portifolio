@@ -2,7 +2,7 @@ import { projects } from "../../database"
 import { ProjectCard } from "./ProjectCard"
 import styles from "./style.module.scss"
 
-export const ProjectsSection = () => {
+export const ProjectsSection = ({setSelectedProject}) => {
     return (
         <section className={styles.section}>
             <div className={styles.sectionHeader}>
@@ -11,7 +11,7 @@ export const ProjectsSection = () => {
             </div>
             <ul className={styles.projectList}>
                 {projects.map(project => (
-                    <ProjectCard key={project.id} project={project} />
+                    <ProjectCard key={project.id} project={project} setSelectedProject={setSelectedProject} />
                 ))}
             </ul>
         </section>

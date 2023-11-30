@@ -23,6 +23,9 @@
         }
 
         .swiperSlide {
+            &:active {
+                cursor: grab;
+            }
 
             .swiperSlideContainer {
                 display: flex;
