@@ -1,9 +1,10 @@
 .card {
     cursor: pointer;
-    height: 100%;
+    min-height: 100%;
     position: relative;
     overflow: hidden;
     min-width: 226px;
+    width: 100%;
     
     .img {
         transition: .2s;
@@ -32,12 +33,10 @@
     }
     
     &:hover .text {
-        bottom: 1.5rem;
+        bottom: 2.5rem;
     }
     &:hover .shadow {
         display: block;
     }
-    &:hover .img{
-        height: 102%;    
-    }
+    
 }

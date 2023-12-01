@@ -28,7 +28,6 @@
             flex-direction: column;
             align-items: center;
             gap: 1rem;
-            background-color: var(--color-brand-2);
             padding: 1rem;
             color: white;
             
@@ -90,12 +89,13 @@
             padding: 0 1.5rem;
 
             p {
-                line-height: 1.3rem;
+                line-height: 1.5rem;
                 font-weight: 500;
+                font-size: 1.2rem;
+                text-align: justify;
             }
         }
         button {
-            background-color: var(--color-brand-2);
             color: white;
             width: 10rem;
             height: 3rem;

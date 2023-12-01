@@ -1,3 +1,4 @@
+import { SwiperSlide } from "swiper/react"
 import styles from "./style.module.scss"
 
 export const ProjectCard = ({project, setSelectedProject}) => {

@@ -3,10 +3,13 @@ import macbook from "../../assets/macbook.svg"
 import iphone from "../../assets/iphone.svg"
 
 export const ProjectsModal = ({ project, setSelectedProject }) => {
+
+    const colorTheme = project.colorTheme
+
     return (
         <div className={styles.modalOverlay}>
             <div className={styles.modalContainer}>
-                <div className={styles.modalHeader}>
+                <div style={{backgroundColor: colorTheme}} className={styles.modalHeader}>
                     <h2>{project.name}</h2>
                     <p>{project.shortDescription}</p>
                 </div>
@@ -23,7 +26,7 @@ export const ProjectsModal = ({ project, setSelectedProject }) => {
                 <div className={styles.descriptionContainer}>
                     <p>{project.longDescription}</p>
                 </div>
-                <button onClick={() => setSelectedProject(null)}>Continuar</button>
+                <button style={{backgroundColor: colorTheme}} onClick={() => setSelectedProject(null)}>Continuar</button>
             </div>
         </div>
     )
