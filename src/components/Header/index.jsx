@@ -30,7 +30,7 @@ export const Header = () => {
                         <a>TECNOLOGIAS</a>
                     </nav>
                     <nav>
-                        <a >PORTIFÓLIO</a>
+                        <a >PROJETOS</a>
                         <a >REDES</a>
                         <a >FALE CONOSCO</a>
                     </nav>

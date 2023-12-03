@@ -1,3 +1,4 @@
+import { YoutubeList } from "./YoutubeList"
 import styles from "./style.module.scss"
 
 export const YoutubeSection = () => {
@@ -16,6 +17,7 @@ export const YoutubeSection = () => {
                     </div>
                 </div>
             </div>
+            <YoutubeList />
         </section>
     )
 }

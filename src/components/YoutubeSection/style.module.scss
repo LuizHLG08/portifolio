@@ -1,7 +1,14 @@
 .section {
+    background-color: var(--fixed-white);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .sectionHeader {
         display: flex;
+        background-color: var(--color-black);
+        width: 100%;
         .headerContainer {
             height: 100%;
             width: 100%;
@@ -53,7 +60,7 @@
     }
     &::after {
         width: 100%;
-        height: 80rem;
+        height: 50rem;
         content: '';
         background-color: var(--fixed-white);
         display: flex;

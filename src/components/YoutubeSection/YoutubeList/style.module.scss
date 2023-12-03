@@ -1,0 +1,11 @@
+.list {
+    background: transparent;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 2rem;
+    row-gap: 4rem;
+    position: absolute;
+    top: 13.75rem;
+    width: 90%;
+    max-width: 70rem;
+}

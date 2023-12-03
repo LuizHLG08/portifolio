@@ -1,6 +1,5 @@
-import profile from "../../assets/perfil.svg";
-import banner from "../../assets/banner-img.svg";
-import styles from "./style.module.scss"
+import profile from "../../assets/perfil-redondo.svg";
+import styles from "./style.module.scss";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export const AboutMeSection = () => {

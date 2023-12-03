@@ -1,90 +1,31 @@
-import cssLogo from "./assets/logos/css-logo.svg"
-import gitLogo from "./assets/logos/git-logo.svg"
-import htmlLogo from "./assets/logos/html-logo.svg"
-import javaLogo from "./assets/logos/java-logo.svg"
-import jsLogo from "./assets/logos/js-logo.svg"
-import nodejsLogo from "./assets/logos/nodejs-logo.svg"
-import reactLogo from "./assets/logos/react-logo.svg"
-import sassLogo from "./assets/logos/sass-logo.svg"
-import springbootLogo from "./assets/logos/springboot-logo.svg"
-import tsLogo from "./assets/logos/ts-logo.svg"
-import mysqlLogo from "./assets/logos/mysql-logo.svg"
+import kenzieEmpresasThumb from "../assets/thumbs/kenzie-empresas-thumb.svg"
+import kenzieEmpresasDesktop from "../assets/desktop/kenzie-empresas-desktop.png"
+import kenzieEmpresasMobile from "../assets/mobile/kenzie-empresas-mobile.png"
 
-import kenzieEmpresasThumb from "./assets/thumbs/kenzie-empresas-thumb.svg"
-import kenzieEmpresasDesktop from "./assets/desktop/kenzie-empresas-desktop.png"
-import kenzieEmpresasMobile from "./assets/mobile/kenzie-empresas-mobile.png"
+import controlFinanceThumb from "../assets/thumbs/control-finance-thumb.svg"
+import controlFinanceDesktop from "../assets/desktop/control-finance-desktop.png"
+import controlFinanceMobile from "../assets/mobile/control-finance-mobile.png"
 
-import controlFinanceThumb from "./assets/thumbs/control-finance-thumb.svg"
-import controlFinanceDesktop from "./assets/desktop/control-finance-desktop.png"
-import controlFinanceMobile from "./assets/mobile/control-finance-mobile.png"
+import petInfoThumb from "../assets/thumbs/pet-info-thumb.svg"
+import petInfoDesktop from "../assets/desktop/pet-info-desktop.png"
+import petInfoMobile from "../assets/mobile/pet-info-mobile.png"
 
-import petInfoThumb from "./assets/thumbs/pet-info-thumb.svg"
-import petInfoDesktop from "./assets/desktop/pet-info-desktop.png"
-import petInfoMobile from "./assets/mobile/pet-info-mobile.png"
+import gitSearchThumb from "../assets/thumbs/git-search-thumb.svg"
+import gitSearchDesktop from "../assets/desktop/git-search-desktop.png"
+import gitSearchMobile from "../assets/mobile/git-search-mobile.png"
 
-import gitSearchThumb from "./assets/thumbs/git-search-thumb.svg"
-import gitSearchDesktop from "./assets/desktop/git-search-desktop.png"
-import gitSearchMobile from "./assets/mobile/git-search-mobile.png"
+import openMusicThumb from "../assets/thumbs/open-music-thumb.svg"
+import openMusicDesktop from "../assets/desktop/open-music-desktop.png"
+import openMusicMobile from "../assets/mobile/open-music-mobile.png"
 
-import openMusicThumb from "./assets/thumbs/open-music-thumb.svg"
-import openMusicDesktop from "./assets/desktop/open-music-desktop.png"
-import openMusicMobile from "./assets/mobile/open-music-mobile.png"
+import techPostersThumb from "../assets/thumbs/tech-posters-thumb.svg"
+import techPostersDesktop from "../assets/desktop/tech-posters-desktop.png"
+import techPostersMobile from "../assets/mobile/tech-posters-mobile.png"
 
-import techPostersThumb from "./assets/thumbs/tech-posters-thumb.svg"
-import techPostersDesktop from "./assets/desktop/tech-posters-desktop.png"
-import techPostersMobile from "./assets/mobile/tech-posters-mobile.png"
+import catalogoGeekThumb from "../assets/thumbs/catalogo-geek-thumb.svg"
+import catalogoGeekDesktop from "../assets/desktop/catalogo-geek-desktop.png"
+import catalogoGeekMobile from "../assets/mobile/catalogo-geek-mobile.png"
 
-import catalogoGeekThumb from "./assets/thumbs/catalogo-geek-thumb.svg"
-import catalogoGeekDesktop from "./assets/desktop/catalogo-geek-desktop.png"
-import catalogoGeekMobile from "./assets/mobile/catalogo-geek-mobile.png"
-
-
-export const techList = [
-    {
-        name: "HTML",
-        logo: htmlLogo
-    },
-    {
-        name: "CSS",
-        logo: cssLogo
-    },
-    {
-        name: "JAVASCRIPT",
-        logo: jsLogo
-    },
-    {
-        name: "REACT",
-        logo: reactLogo
-    },
-    {
-        name: "NODEJS",
-        logo: nodejsLogo
-    },
-    {
-        name: "TYPESCRIPT",
-        logo: tsLogo
-    },
-    {
-        name: "SASS",
-        logo: sassLogo
-    },
-    {
-        name: "JAVA",
-        logo: javaLogo
-    },
-    {
-        name: "SPRING BOOT",
-        logo: springbootLogo
-    },
-    {
-        name: "GIT",
-        logo: gitLogo
-    },
-    {
-        name: "MYSQL",
-        logo: mysqlLogo
-    },
-]
 
 export const projects = [
     {

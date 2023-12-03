@@ -1,7 +1,6 @@
-import { projects } from "../../database"
 import { ProjectCard } from "./ProjectCard"
-import { SwiperList } from "../SwiperList"
 import styles from "./style.module.scss"
+import { projects } from "../../database/projects"
 
 export const ProjectsSection = ({setSelectedProject}) => {
     return (

@@ -1,7 +1,7 @@
 import { SwiperSlide } from "swiper/react"
-import { techList } from "../../../database"
 import { SwiperList } from "../../SwiperList"
 import styles from "./style.module.scss"
+import { techList } from "../../../database/techs"
 
 export const SkillsList = () => {
     return (
