@@ -3,7 +3,7 @@ import styles from "./style.module.scss"
 
 export const YoutubeSection = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="redes">
             <div className={styles.sectionHeader}>
                 <div className={styles.headerContainer}>
                     <div className={styles.headerTitle}>
@@ -13,11 +13,12 @@ export const YoutubeSection = () => {
                     <div className={styles.subscribe}>
                         <p>INSCREVA-SE NO CANAL</p>
                         <p className={styles.link}>YOUTUBE.COM/MAGODEV</p>
-                        <a href="">SE INSCREVER</a>
+                        <a href="https://www.youtube.com/channel/UC0pOPYzBzw2GM9TVd4AlYrA" target="_blank">SE INSCREVER</a>
                     </div>
                 </div>
             </div>
             <YoutubeList />
+            <a href="https://www.youtube.com/channel/UC0pOPYzBzw2GM9TVd4AlYrA" target="_blank" className={styles.seeAll}>Ver todos</a>
         </section>
     )
 }

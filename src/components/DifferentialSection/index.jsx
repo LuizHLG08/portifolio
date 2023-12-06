@@ -9,7 +9,7 @@ import { SwiperList } from "../SwiperList"
 export const DifferentialSection = () => {
     
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="techs">
             <div className={styles.differentialContainer}>
                 <h2 className={styles.title}>DIFERENCIAIS</h2>
                 <SwiperList className={styles.swiper}

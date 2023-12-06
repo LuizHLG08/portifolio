@@ -17,6 +17,7 @@
 
         h2 {
             font-size: 3rem;
+            color: var(--color-brand-1);
         }
     }
     .projectList {
@@ -26,4 +27,12 @@
         overflow-x: auto;
         overflow-y: hidden;
     }
+    ::-webkit-scrollbar{
+        background-color: var(--color-black);
+        height: 8px;
+    }
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-brand-1);
+    border-radius: 20px;
 }

@@ -2,22 +2,22 @@ import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import styles from "./style.module.scss";
+import { Link } from "react-scroll";
 
 export const Header = () => {
     return (
-        <header className={styles.header}>
+        <header className={styles.header} id="header">
             <div className={styles.headerContainer}>
                 <div className={styles.contactContainer}>
                     <nav>
-                        <a href=""><FaYoutube className="contactIcon" /></a>
-                        <a href=""><FaLinkedin className="contactIcon" /></a>
-                        <a href=""><FaGithub className="contactIcon" /></a>
+                        <a href="https://www.youtube.com/channel/UC0pOPYzBzw2GM9TVd4AlYrA" target="_blank"><FaYoutube className="contactIcon" /></a>
+                        <a href="https://www.linkedin.com/in/luiz-henrique-lima-gonçalves-8a8b38273/" target="_blank"><FaLinkedin className="contactIcon" /></a>
+                        <a href="https://github.com/LuizHLG08" target="_blank"><FaGithub className="contactIcon" /></a>
                     </nav>
                     <div className={styles.whatsappContainer}>
                         <div>
-                            <a href=""><FaWhatsapp className="contactIcon" /></a>
+                            <a href="https://wa.me/5533999854190" target="_blank"><FaWhatsapp className="contactIcon" /></a>
                             <p>WHATSAPP</p>
                         </div>
                         <h2>33 99985 4190</h2>
@@ -25,14 +25,14 @@ export const Header = () => {
                 </div>
                 <div className={styles.homeContainer}>
                     <nav>
-                        <a>HOME</a>
-                        <a>SOBRE MIM</a>
-                        <a>TECNOLOGIAS</a>
+                        <Link to="header" spy={true} smooth={true} offset={-70} duration={500} className={styles.sectionsNav}>HOME</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className={styles.sectionsNav}>SOBRE MIM</Link>
+                        <Link to="techs" spy={true} smooth={true} offset={-70} duration={500} className={styles.sectionsNav}>TECNOLOGIAS</Link>
                     </nav>
                     <nav>
-                        <a >PROJETOS</a>
-                        <a >REDES</a>
-                        <a >FALE CONOSCO</a>
+                        <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className={styles.sectionsNav} >PROJETOS</Link>
+                        <Link to="redes" spy={true} smooth={true} offset={-70} duration={500} className={styles.sectionsNav} >REDES</Link>
+                        <Link to="footer" spy={true} smooth={true} offset={-70} duration={500} className={styles.sectionsNav} >FALE CONOSCO</Link>
                     </nav>
                 </div>
             </div>

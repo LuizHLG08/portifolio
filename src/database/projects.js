@@ -30,13 +30,13 @@ import catalogoGeekMobile from "../assets/mobile/catalogo-geek-mobile.png"
 export const projects = [
     {
         id: crypto.randomUUID(),
-        name: "Kenzie Empresas",
-        thumb: kenzieEmpresasThumb,
-        shortDescription: "Site para gerenciar funcionários e empresas",
-        longDescription: "Este site tem como objetivo fazer a gestão de várias empresas e funcionários, com as empresas cadastradas, você pode se cadastrar como um usuário que está a procura de um emprego, ou um administrador que gerencia todo o site, no dashboard do administrador é possível gerenciar cada empresa, criar departamentos, gerenciar departamentos, contratar e demitir usuários, além de poder gerenciar todos os usuários cadastrados no site. Enquanto no dashboard do usuário, ele tem acesso a empresa em que foi contratado e o departamento em que está atuando.",
-        desktopImage: kenzieEmpresasDesktop,
-        mobileImage: kenzieEmpresasMobile,
-        colorTheme: "#0026FF"
+        name: "Git Search",
+        thumb: gitSearchThumb,
+        shortDescription: "Um aplicativo de perquisa dos usuários do github",
+        longDescription: "Neste aplicativo, é possível pesquisar por qualquer usuário existente no github. Se o aplicativo encontrar o usuário, ele o redireciona para um página com as informações do usuário (nome, perfil e projetos). Caso não encontre, ele o redireciona para uma página de erro. Sinta-se a vontade para pesquisar o quanto quiser.",
+        desktopImage: gitSearchDesktop,
+        mobileImage: gitSearchMobile,
+        colorTheme: "#C2255C"
     },
     {
         id: crypto.randomUUID(),
@@ -57,16 +57,6 @@ export const projects = [
         desktopImage: petInfoDesktop,
         mobileImage: petInfoMobile,
         colorTheme: "#364FC6"
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Git Search",
-        thumb: gitSearchThumb,
-        shortDescription: "Um aplicativo de perquisa dos usuários do github",
-        longDescription: "Neste aplicativo, é possível pesquisar por qualquer usuário existente no github. Se o aplicativo encontrar o usuário, ele o redireciona para um página com as informações do usuário (nome, perfil e projetos). Caso não encontre, ele o redireciona para uma página de erro. Sinta-se a vontade para pesquisar o quanto quiser.",
-        desktopImage: gitSearchDesktop,
-        mobileImage: gitSearchMobile,
-        colorTheme: "#C2255C"
     },
     {
         id: crypto.randomUUID(),
@@ -97,5 +87,15 @@ export const projects = [
         desktopImage: catalogoGeekDesktop,
         mobileImage: catalogoGeekMobile,
         colorTheme: "#0A99FF"
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Kenzie Empresas",
+        thumb: kenzieEmpresasThumb,
+        shortDescription: "Site para gerenciar funcionários e empresas",
+        longDescription: "Este site tem como objetivo fazer a gestão de várias empresas e funcionários, com as empresas cadastradas, você pode se cadastrar como um usuário que está a procura de um emprego, ou um administrador que gerencia todo o site, no dashboard do administrador é possível gerenciar cada empresa, criar departamentos, gerenciar departamentos, contratar e demitir usuários, além de poder gerenciar todos os usuários cadastrados no site. Enquanto no dashboard do usuário, ele tem acesso a empresa em que foi contratado e o departamento em que está atuando.",
+        desktopImage: kenzieEmpresasDesktop,
+        mobileImage: kenzieEmpresasMobile,
+        colorTheme: "#0026FF"
     },
 ]

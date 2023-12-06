@@ -10,7 +10,7 @@ export const AboutMeSection = () => {
     })
 
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="about">
             <div className={styles.sectionContainer}>
                 <div className={styles.nameContainer}>
                     <div>
