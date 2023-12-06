@@ -60,3 +60,27 @@
         }
     }
 }
+
+@media (max-width: 730px) {
+    .section {
+
+        .sectionContainer {
+            flex-direction: column;
+            align-items: center;
+            gap: 5rem;
+
+            .nameContainer {
+                width: 100%;
+
+                div {
+                    align-items: center;
+                }
+            }
+            .about {
+                width: 100%;
+                align-items: center;
+                gap: 2rem;
+            }
+        }
+    }
+}

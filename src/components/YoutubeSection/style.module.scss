@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--fixed-white);
 
     .sectionHeader {
         display: flex;
@@ -78,12 +79,47 @@
         font-size: 1.2rem;
         color: var(--color-black);
         bottom: 4rem;
+        left: 48%;
         text-decoration: none;
         font-weight: 500;
         transition: 0.2s;
 
         &:hover {
             transform: scale(1.1);
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .section {
+        .sectionHeader::before {
+            display: none;
+        }
+
+        .sectionHeader {
+            height: 25rem;
+            .headerContainer {
+            }
+        }
+        &::after {
+            height: 80rem;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .section {
+        &::after {
+            display: none !important;
+        }
+        .sectionHeader {
+            height: auto;
+
+            .headerContainer {
+                flex-direction: column;
+                align-items: center;
+                gap: 5rem;
+            }
         }
     }
 }

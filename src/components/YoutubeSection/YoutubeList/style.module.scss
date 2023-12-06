@@ -9,3 +9,17 @@
     width: 90%;
     max-width: 70rem;
 }
+
+@media (max-width: 1000px) {
+    .list {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 730px) {
+    .list {
+        position: static;
+        grid-template-columns: 100%;
+        padding: 3rem 0;
+    }
+}

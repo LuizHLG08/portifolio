@@ -4,7 +4,7 @@
 
     --color-grey-1: #212529;
     --color-grey-2: #495057;
-    --color-grey-3: #adb5bd;
+    --color-grey-3: #d4d4d4;
     --color-grey-4: #e9ecef;
     --color-grey-5: #f1f3f5;
 
@@ -23,6 +23,11 @@
 body {
     font-family: var(--font-family-2);
     background-color: black;
-    color: white;
+    color: var(--color-grey-3);
     overflow-x: hidden;
 }
+.visible {
+    display: flex !important;
+    opacity: 1 !important;
+}
+

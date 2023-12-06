@@ -2,7 +2,6 @@
     background-color: var(--fixed-white);
     color: var(--color-black);
     display: flex;
-    height: 25rem;
 
     .sectionHeader {
         background-color: var(--color-black);
@@ -24,15 +23,27 @@
         display: flex;
         align-items: center;
         display: flex;
+        min-height: 25rem;
         overflow-x: auto;
         overflow-y: hidden;
+        background-color: var(--color-black);
     }
     ::-webkit-scrollbar{
         background-color: var(--color-black);
         height: 8px;
     }
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--color-brand-1);
+        border-radius: 20px;
+    }
 }
-::-webkit-scrollbar-thumb {
-    background-color: var(--color-brand-1);
-    border-radius: 20px;
+
+@media (max-width: 1000px) {
+    .section {
+        flex-direction: column;
+
+        .sectionHeader {
+            padding: 4rem 0;
+        }
+    }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 128.00 128.00">
-<path fill="#f9414e" d="
+<path fill="#BE00E8" d="
   M 85.74 102.07
   L 95.44 101.97
   A 0.98 0.95 21.1 0 0 96.10 101.69
@@ -70,7 +70,7 @@
   L 94.21 106.54
   Z"
 />
-<path fill="#f9414e" d="
+<path fill="#BE00E8" d="
   M 75.47 75.57
   Q 74.71 75.09 74.50 75.97
   L 73.73 79.27
@@ -168,7 +168,7 @@
   Q 71.07 72.80 72.04 71.21
   Z"
 />
-<path fill="#f9414e" d="
+<path fill="#BE00E8" d="
   M 79.92 53.99
   A 13.92 13.92 0.0 0 1 66.00 67.91
   A 13.92 13.92 0.0 0 1 52.08 53.99
@@ -182,7 +182,7 @@
   A 9.97 9.97 0.0 0 0 75.95 54.00
   Z"
 />
-<path fill="#f9414e" d="
+<path fill="#BE00E8" d="
   M 71.93 53.98
   A 5.94 5.94 0.0 0 1 65.99 59.92
   A 5.94 5.94 0.0 0 1 60.05 53.98
@@ -196,7 +196,7 @@
   A 1.94 1.94 0.0 0 0 67.95 53.99
   Z"
 />
-<path fill="#f9414e" d="
+<path fill="#BE00E8" d="
   M 37.96 120.02
   A 5.99 5.99 0.0 0 1 31.97 126.01
   L 7.99 126.01
@@ -218,10 +218,10 @@
   L 34.1447 80.1646
   Z"
 />
-<rect fill="#f9414e" x="-10.04" y="-2.09" transform="translate(20.02,84.07) rotate(-0.1)" width="20.08" height="4.18" rx="1.40"/>
-<rect fill="#f9414e" x="-10.12" y="-2.12" transform="translate(20.00,92.02) rotate(-0.2)" width="20.24" height="4.24" rx="1.52"/>
-<rect fill="#f9414e" x="-9.98" y="-2.08" transform="translate(20.00,100.03) rotate(-0.4)" width="19.96" height="4.16" rx="1.04"/>
-<path fill="#f9414e" d="
+<rect fill="#BE00E8" x="-10.04" y="-2.09" transform="translate(20.02,84.07) rotate(-0.1)" width="20.08" height="4.18" rx="1.40"/>
+<rect fill="#BE00E8" x="-10.12" y="-2.12" transform="translate(20.00,92.02) rotate(-0.2)" width="20.24" height="4.24" rx="1.52"/>
+<rect fill="#BE00E8" x="-9.98" y="-2.08" transform="translate(20.00,100.03) rotate(-0.4)" width="19.96" height="4.16" rx="1.04"/>
+<path fill="#BE00E8" d="
   M 108.70 112.52
   L 116.02 105.17
   A 0.90 0.90 0.0 0 1 117.30 105.17
@@ -237,8 +237,8 @@
   A 0.90 0.90 0.0 0 0 108.70 112.52
   Z"
 />
-<rect fill="#f9414e" x="-10.05" y="-1.95" transform="translate(20.04,108.04) rotate(0.1)" width="20.10" height="3.90" rx="1.30"/>
-<rect fill="#f9414e" x="-2.03" y="-1.93" transform="translate(12.08,115.89) rotate(0.5)" width="4.06" height="3.86" rx="0.95"/>
-<rect fill="#f9414e" x="-2.00" y="-2.00" transform="translate(20.04,115.96) rotate(-0.4)" width="4.00" height="4.00" rx="1.08"/>
-<rect fill="#f9414e" x="-2.01" y="-1.94" transform="translate(27.97,115.96) rotate(2.5)" width="4.02" height="3.88" rx="0.96"/>
+<rect fill="#BE00E8" x="-10.05" y="-1.95" transform="translate(20.04,108.04) rotate(0.1)" width="20.10" height="3.90" rx="1.30"/>
+<rect fill="#BE00E8" x="-2.03" y="-1.93" transform="translate(12.08,115.89) rotate(0.5)" width="4.06" height="3.86" rx="0.95"/>
+<rect fill="#BE00E8" x="-2.00" y="-2.00" transform="translate(20.04,115.96) rotate(-0.4)" width="4.00" height="4.00" rx="1.08"/>
+<rect fill="#BE00E8" x="-2.01" y="-1.94" transform="translate(27.97,115.96) rotate(2.5)" width="4.02" height="3.88" rx="0.96"/>
 </svg>
