@@ -6,6 +6,7 @@ import { ProjectsModal } from "../../components/ProjectsModal"
 import { ProjectsSection } from "../../components/ProjectsSection"
 import { SkillsSection } from "../../components/SkillsSection"
 import { YoutubeSection } from "../../components/YoutubeSection"
+import { Footer } from "../../components/Footer"
 
 export const HomePage = () => {
 
@@ -19,6 +20,7 @@ export const HomePage = () => {
             <DifferentialSection />
             <ProjectsSection setSelectedProject={setSelectedProject} />
             <YoutubeSection />
+            <Footer />
             {selectedProject ? <ProjectsModal project={selectedProject} setSelectedProject={setSelectedProject} /> : null}
         </>
     )

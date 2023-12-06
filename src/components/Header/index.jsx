@@ -11,13 +11,13 @@ export const Header = () => {
             <div className={styles.headerContainer}>
                 <div className={styles.contactContainer}>
                     <nav>
-                        <a href=""><FaYoutube className={styles.contactIcon} /></a>
-                        <a href=""><FaLinkedin className={styles.contactIcon} /></a>
-                        <a href=""><FaGithub className={styles.contactIcon} /></a>
+                        <a href=""><FaYoutube className="contactIcon" /></a>
+                        <a href=""><FaLinkedin className="contactIcon" /></a>
+                        <a href=""><FaGithub className="contactIcon" /></a>
                     </nav>
                     <div className={styles.whatsappContainer}>
                         <div>
-                            <a href=""><FaWhatsapp className={styles.contactIcon} /></a>
+                            <a href=""><FaWhatsapp className="contactIcon" /></a>
                             <p>WHATSAPP</p>
                         </div>
                         <h2>33 99985 4190</h2>

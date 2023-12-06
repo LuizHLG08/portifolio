@@ -1,0 +1,77 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+    .footerContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 70%;
+
+        
+        .menuContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+    
+            h2 {
+                font-size: 1.25rem;
+                font-weight: 600;
+                color: var(--color-brand-1);
+            }
+    
+            nav {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+    
+                a {
+                    text-decoration: none;
+                    color: var(--color-grey-2);
+                    font-size: 1.125rem;
+                    transition: .2s;
+    
+                    &:hover {
+                        font-size: 1.2rem;
+                        color: var(--color-white);
+                    }
+                }
+            }
+        }
+        .contactContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+    
+            .whatsapp {
+                display: flex;
+                gap: 6rem;
+                
+                .title {
+                    display: flex;
+                    gap: 0.5rem;
+                    align-items: center;
+    
+                    .contactIcon {
+                        color: var(--color-white);
+                        height: 1.5rem;
+                        width: 1.5rem;
+                    }
+                    
+                    h2 {
+                        width: 5.5rem;
+                    }
+                }
+                .contact {
+    
+                    p {
+                        font-size: 2rem;
+                    }
+                }
+    
+            }
+        }
+    }
+}
