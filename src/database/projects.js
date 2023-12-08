@@ -26,6 +26,18 @@ import catalogoGeekThumb from "../assets/thumbs/catalogo-geek-thumb.svg"
 import catalogoGeekDesktop from "../assets/desktop/catalogo-geek-desktop.png"
 import catalogoGeekMobile from "../assets/mobile/catalogo-geek-mobile.png"
 
+import nuKenzieThumb from "../assets/thumbs/nu-kenzie-thumb.svg"
+import nuKenzieDesktop from "../assets/desktop/nu-kenzie-desktop.png"
+import nuKenzieMobile from "../assets/mobile/nu-kenzie-mobile.png"
+
+import hamburgueriaThumb from "../assets/thumbs/hamburgueria-thumb.svg"
+import hamburgueriaDesktop from "../assets/desktop/hamburgueria-desktop.png"
+import hamburgueriaMobile from "../assets/mobile/hamburgueria-mobile.png"
+
+import kenzieHubThumb from "../assets/thumbs/kenzie-hub-thumb.svg"
+import kenzieHubDesktop from "../assets/desktop/kenzie-hub-desktop.png"
+import kenzieHubMobile from "../assets/mobile/kenzie-hub-mobile.png"
+
 
 export const projects = [
     {
@@ -90,6 +102,26 @@ export const projects = [
     },
     {
         id: crypto.randomUUID(),
+        name: "Hamburgueria",
+        thumb: hamburgueriaThumb,
+        shortDescription: "A hamburgueria com os melhores preços da região",
+        longDescription: "Este site é uma hamburgueria completa, uma vez logado, é possível escolher o seu lanche e adicioná-lo ao carrinho, seu lanche ficará salvo no carrinho até que resolva comprá-lo ou se mudar de ideia, pode removê-lo.",
+        desktopImage: hamburgueriaDesktop,
+        mobileImage: hamburgueriaMobile,
+        colorTheme: "#27AE60"
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Nu Kenzie",
+        thumb: nuKenzieThumb,
+        shortDescription: "Um banco para administração de finanças",
+        longDescription: "Este é site que tem como objetivo controlar suas finanças, uma vez feito o login, é possível registrar todas as entradas e saídas e tudo ficara salvo nos seus registros.",
+        desktopImage: nuKenzieDesktop,
+        mobileImage: nuKenzieMobile,
+        colorTheme: "#FD377E"
+    },
+    {
+        id: crypto.randomUUID(),
         name: "Kenzie Empresas",
         thumb: kenzieEmpresasThumb,
         shortDescription: "Site para gerenciar funcionários e empresas",
@@ -97,5 +129,15 @@ export const projects = [
         desktopImage: kenzieEmpresasDesktop,
         mobileImage: kenzieEmpresasMobile,
         colorTheme: "#0026FF"
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Kenzie Hub",
+        thumb: kenzieHubThumb,
+        shortDescription: "Site para vercionamento de código",
+        longDescription: "Neste site é possível se cadastrar ou fazer login, uma vez dentro do site é possível configurar o seu perfil, adicionar e remover tecnologias e qual é o seu nível na mesma. Também é possível adicionar e remover projetos, tudo ficará salvo na sua conta.",
+        desktopImage: kenzieHubDesktop,
+        mobileImage: kenzieHubMobile,
+        colorTheme: "#121214"
     },
 ]
