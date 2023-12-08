@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-top: 5px solid var(--color-brand-1);
     padding: 3rem 0;
 
@@ -50,6 +51,7 @@
             .whatsapp {
                 display: flex;
                 gap: 6rem;
+                width: 100%;
                 
                 .title {
                     display: flex;
@@ -71,11 +73,17 @@
                     h2 {
                         width: 5.5rem;
                     }
+
                 }
                 .contact {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
     
                     p {
                         font-size: 2rem;
+                        overflow-wrap: break-word;
+                        max-width: 100%;
                     }
                 }
     
@@ -107,6 +115,10 @@
                 .whatsapp {
                     gap: 1rem;
                     justify-content: space-between;
+
+                    .contact {
+                        max-width: 200px;
+                    }
                 }
             }
         }
