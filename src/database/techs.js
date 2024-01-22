@@ -9,6 +9,7 @@ import sassLogo from "../assets/logos/sass-logo.svg"
 import springbootLogo from "../assets/logos/springboot-logo.svg"
 import tsLogo from "../assets/logos/ts-logo.svg"
 import mysqlLogo from "../assets/logos/mysql-logo.svg"
+import postgresqlLogo from "../assets/logos/postgresql-logo.svg"
 
 export const techList = [
     {
@@ -54,5 +55,9 @@ export const techList = [
     {
         name: "MYSQL",
         logo: mysqlLogo
+    },
+    {
+        name: "POSTGRESQL",
+        logo: postgresqlLogo
     },
 ]

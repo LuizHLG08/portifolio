@@ -13,6 +13,11 @@
             height: 6rem;
             border-radius: 8px;
             overflow: hidden;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
         }
         .techName {
             font-weight: 700;
